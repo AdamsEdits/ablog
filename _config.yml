@@ -1,10 +1,10 @@
-title: Adam's Edits | Blog
+title: Blog
 author: Adam Greenberg
 email: blog@edits.AdamGreenberg.com
 description: > # this means to ignore newlines until "twitter_username:"
-  Helping You Write Well | A Blog
+  The Blog Of An Editor Helping You Write Well
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
 
 # social links
 github_username:  AdamGreenberg
