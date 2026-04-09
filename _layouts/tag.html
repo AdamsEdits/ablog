@@ -1,0 +1,42 @@
+---
+layout: default
+---
+{% assign page_tag_slug = page.tag | slugify %}
+
+<h1>Posts tagged “{{ page.tag }}”</h1>
+
+{% if paginator %}
+  {% assign posts_list = paginator.posts %}
+{% else %}
+  {% assign posts_list = site.posts %}
+{% endif %}
+
+<ul>
+  {% for post in posts_list %}
+    {% if post.tags %}
+      {% assign matched = false %}
+      {% for t in post.tags %}
+        {% if t | slugify == page_tag_slug %}
+          {% assign matched = true %}
+        {% endif %}
+      {% endfor %}
+      {% if matched %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+        </li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% if paginator %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% endif %}
+  </nav>
+{% endif %}

@@ -1,0 +1,15 @@
+---
+---
+<h1>Posts on {{ page.year }}-{{ page.month | prepend: "0" | slice: -2 }}-{{ page.day | prepend: "0" | slice: -2 }}</h1>
+{% assign month_padded = page.month | prepend: "0" | slice: -2 %}
+{% assign day_padded   = page.day   | prepend: "0" | slice: -2 %}
+{% assign ymd = page.year | append: "-" | append: month_padded | append: "-" | append: day_padded %}
+<ul>
+  {% assign posts_on_day = site.posts | where_exp: "post", "post.date | date: '%Y-%m-%d' == ymd" %}
+  {% for post in posts_on_day %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%a. %d, %b %Y" }}</li>
+  {% endfor %}
+  {% if posts_on_day == empty %}
+    <li>No posts for this day.</li>
+  {% endif %}
+</ul>
