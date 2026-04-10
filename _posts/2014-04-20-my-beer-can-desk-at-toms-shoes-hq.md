@@ -34,8 +34,7 @@ All 15 of us lived together on the beach.
 
 It was a fine time.
 
-<hr>
-
+---
 
 ![Spring '09 Interns and TOMS founder Blake Mycoskie](../../../../src/images/Spring2009.jpg "Spring '09 Interns and TOMS founder Blake Mycoskie")
 
