@@ -42,6 +42,7 @@ TO A CHILD IN NEED.
 On the surface, that might seem a minor, grammatical change – and in some ways it absolutely is – but how we choose to speak about ourselves, our work, and each other is no minor, inconsequential thing.
 
 As Adam Braun of [Pencils of Promise](https://pencilsofpromise.org) says,
+
 ![Change Your Words to Change Your Worth](../../../../src/images/AdamBraun.jpg "Change Your Words to Change Your Worth")
 
 ​As much as this applies to people, for a company to ignore this is an equally missed opportunity. **For a company building an intentional brand – a brand that matters – ​it is not something to be overlooked.**
@@ -78,6 +79,6 @@ I’m happy to see that this thread of collaboration and purpose – [the same r
 Again, well done Blake and the current TOMS team! Cheers to 10 years.
 
 ---
-![TOMS Shoes](../../../../src/images/banner.jpg "TOMS Shoes")
+[![TOMS Shoes](../../../../src/images/banner.jpg "TOMS Shoes")](https://web.archive.org/web/20161106163601/http://www.toms.com/stories/uncategorized/for-one-another-toms-commercial)
 
 [Archive.org](https://web.archive.org/web/20210220133125/https://edits.adamgreenberg.com/blog/one-for-one-for-one-another-well-done-toms-again/)
