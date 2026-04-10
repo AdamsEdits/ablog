@@ -13,12 +13,13 @@ show_table_of_contents: true
 show_related_posts: true
 description:
 summary:
-excerpt:
+excerpt: Perhaps my introduction to [branding](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms) or perception management came from my dad.
 published: true
 draft: false
 featured: yes
 pinned: no
 comments_enabled: true
+show_prev_next: true
 
 ---
 
