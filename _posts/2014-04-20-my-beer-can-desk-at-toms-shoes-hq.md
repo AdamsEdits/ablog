@@ -16,7 +16,7 @@ The back of my head and my desk of Sapporo cases, already 2/3rds smaller by the 
 
 ===
 
-One day, I came into the office to find cases and cases of unopened Sapporo beer 12-pack tallboys, leftover from a recent launch event, piled somewhat haphazardly near [the copy machine area](../../../2009/04/23/fun-at-the-toms-shoes-hq-copy-machine) ... which was, right next to me.
+One day, I came into the office to find cases and cases of unopened Sapporo beer 12-pack tallboys, leftover from a recent launch event, piled somewhat haphazardly near [the copy machine area](../../../../2009/04/23/fun-at-the-toms-shoes-hq-copy-machine) ... which was right next to me.
 
 Seated from my chair’s vantage point, I noticed that a stack of four looked to be suspiciously just about the same height as my small desk. So after learning that nothing was expected to happen with them, I simply slid the piles across the floor, flush next to mine; and extended it quite colorfully into the executive style corner office desk I now fantasized it to be.
 
