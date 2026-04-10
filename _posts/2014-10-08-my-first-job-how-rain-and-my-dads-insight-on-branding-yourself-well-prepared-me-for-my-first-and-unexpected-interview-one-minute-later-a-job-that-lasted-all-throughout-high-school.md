@@ -8,6 +8,18 @@ tags: [branding, marketing, TOMS]
 date: 2014-10-08
 excerpt_separator: "==="
 meta: [branding]
+enable_comments: true
+show_table_of_contents: true
+show_related_posts: true
+description:
+summary:
+excerpt:
+published: true
+draft: false
+featured: yes
+pinned: no
+comments_enabled: true
+
 ---
 
 Perhaps my introduction to [branding](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms) or perception management came from my dad. 
