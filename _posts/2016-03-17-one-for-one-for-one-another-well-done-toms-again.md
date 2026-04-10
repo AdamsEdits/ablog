@@ -10,7 +10,7 @@ excerpt_separator: "==="
 
 I just came across [this recent Fast Company article and short video interview](https://www.fastcompany.com/3055485/blake-mycoskie-on-the-future-of-toms) of TOMS founder and my former boss, Blake Mycoskie: 
 
-https://www.fastcompany.com/embed/7db5f9c320ac6?rel=1&src=embed&veggiemode=1​
+<https://www.fastcompany.com/embed/7db5f9c320ac6?rel=1&src=embed&veggiemode=1​>
 
 ===
 
@@ -28,7 +28,7 @@ Not just for the great song, “Nothing More” by [The Alternate Routes](https:
 
 ---
 
-[Some time ago, in 2009, I proposed to Blake that we update the first word of our mission statement from “For every pair…” to begin “With every pair…”.](https://edits.adamgreenberg.com/blog/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms)
+[Some time ago, in 2009, I proposed to Blake that we update the first word of our mission statement from “For every pair...” to begin “With every pair...”.](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms)
 
 [![From FOR](../../../../src/images/old.jpeg "For every purchase...")](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms)
 [![To WITH](../../../../src/images/new.jpg "With every purchase...")](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms)
@@ -42,7 +42,7 @@ TO A CHILD IN NEED.
 On the surface, that might seem a minor, grammatical change – and in some ways it absolutely is – but how we choose to speak about ourselves, our work, and each other is no minor, inconsequential thing.
 
 As Adam Braun of [Pencils of Promise](https://pencilsofpromise.org) says,
-![Change Your Words to Change Your Worth](../../../../src/images/AdamBraun.jpg "Change Your Words to Change Your Worth"
+![Change Your Words to Change Your Worth](../../../../src/images/AdamBraun.jpg "Change Your Words to Change Your Worth")
 
 ​As much as this applies to people, for a company to ignore this is an equally missed opportunity. **For a company building an intentional brand – a brand that matters – ​it is not something to be overlooked.**
 
@@ -71,13 +71,13 @@ More companies are catching on to all this psychology though. So as they do, we 
 
 ​**A warning: It will become more difficult.**
 
-I’m happy to see that this thread of collaboration and purpose – [the same reason I proposed “with” in place of “for”](https://edits.adamgreenberg.com/blog/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms) – continues to run through the intentional fabric of TOMS still.
+I’m happy to see that this thread of collaboration and purpose – [the same reason I proposed “with” in place of “for”](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms) – continues to run through the intentional fabric of TOMS still.
 
 **Messaging on point.**
 
 Again, well done Blake and the current TOMS team! Cheers to 10 years.
 
 ---
-![TOMS Shoes](../../../../src/images/banner.jpg "TOMS Shoes"
+![TOMS Shoes](../../../../src/images/banner.jpg "TOMS Shoes")
 
 [Archive.org](https://web.archive.org/web/20210220133125/https://edits.adamgreenberg.com/blog/one-for-one-for-one-another-well-done-toms-again/)
