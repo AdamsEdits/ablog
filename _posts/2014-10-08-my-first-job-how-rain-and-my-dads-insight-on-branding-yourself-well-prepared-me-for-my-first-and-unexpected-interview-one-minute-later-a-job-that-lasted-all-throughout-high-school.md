@@ -13,6 +13,7 @@ Perhaps my introduction to [branding](../../../../2011/05/11/that-first-word-wit
 <hr>
 
 
+
 It was probably no later than 10:30am on this particular Saturday and we were already headed home – likely from an early morning at Home Depot. (Plus, CarTalk starts at 11.) Oh, dad had his projects. Around the house, there was always something to be done. *Of course.* Even if it didn’t have to be done. *Naturally.* My dad is an early riser and a hard worker; today still, he often skips breakfast. (Me too, actually. I’m just not hungry until I’ve been awake for 2 hours.) Anyway, at that age, I *generally* always enjoyed helping him with those projects; still, I did not rise quite so enthusiastically on Saturday mornings. In my younger years, the wafted smell from the kitchen of pancakes with his perfectly crisped edges made it easier, sometimes.
 
 ===
