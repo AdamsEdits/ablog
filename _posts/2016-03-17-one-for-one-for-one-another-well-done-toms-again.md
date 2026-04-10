@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “One for One. For One, Another.” Well done, TOMS. Again.
+title: “One for One. For One Another.” Well done, TOMS. Again.
 author: adam-greenberg
 categories: [branding, marketing, psychology, TOMS]
 tags: [one-for-one, TOMS, TOMS-Shoes]
@@ -22,7 +22,7 @@ I’ve just got to say, “Well done team.”
 
 **This is a brilliant commercial.** 
 
-Not just for the great song, “Nothing More” by [The Alternate Routes](https://www.youtube.com/watch?v=9tXzlVjU1xs). And its lyrics which obviously sync up well with each clip intentionally…But for all the people.
+Not just for the great song, “Nothing More” by [The Alternate Routes](https://www.youtube.com/watch?v=9tXzlVjU1xs). And its lyrics which obviously sync up well with each clip intentionally... But for all the people.
 
 > Because TOMS is about people.
 
@@ -53,17 +53,19 @@ Our words are incredibly important – even something as simple as a slogan.
 
 It directly expresses the vision in the TOMS brand. One for One.
 
-*For one, another.*
+*For one another.*
 
 Yes.
 
 So don’t overlook that. **For yourself or your company.**
 
+(But for now—and as this is the blog of an editor— I am going to have to overlook the glaring comma typo here in writing "For one, another"...)
+
 ---
 
 Once again, I must also note, this is not just about the semantics of branding or marketing.
 
-This is the TOMS vision made manifest in a great commercial, with all those people participating, front and center – those receiving AND those giving – as always; and secondarily, is the branding component.
+This is the TOMS vision made manifest in a great commercial, with all those people participating, front and center–those receiving AND those giving–as always; and secondarily is the branding component.
 
 **​The branding works only because that first part is genuine.**
 And it shows really well here.
