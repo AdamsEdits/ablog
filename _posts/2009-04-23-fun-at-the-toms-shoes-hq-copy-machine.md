@@ -12,6 +12,6 @@ The Mark Twain quote was already there; I couldn’t help myself.
 
 Thanks for your help finding a matching font, [Vanessa](https://www.vanessavaguely.com).
 
-![image](../../../../src/images/Shania.jpg "The best thing about being a woman")
+![Shania and Mark Twain](../../../../src/images/Shania.jpg "The best thing about being a woman")
 
 [Archive.org](https://web.archive.org/web/20210220143046/https://edits.adamgreenberg.com/blog/fun-at-the-toms-shoes-hq-copy-machine/)
