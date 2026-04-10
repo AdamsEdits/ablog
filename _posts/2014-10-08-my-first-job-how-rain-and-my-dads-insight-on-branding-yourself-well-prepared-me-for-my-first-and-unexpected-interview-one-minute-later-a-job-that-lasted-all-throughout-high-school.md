@@ -10,9 +10,7 @@ excerpt_separator: "==="
 
 Perhaps my introduction to [branding](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms) or perception management came from my dad. 
 
-<hr>
-
-
+---
 
 It was probably no later than 10:30am on this particular Saturday and we were already headed home – likely from an early morning at Home Depot. (Plus, CarTalk starts at 11.) Oh, dad had his projects. Around the house, there was always something to be done. *Of course.* Even if it didn’t have to be done. *Naturally.* My dad is an early riser and a hard worker; today still, he often skips breakfast. (Me too, actually. I’m just not hungry until I’ve been awake for 2 hours.) Anyway, at that age, I *generally* always enjoyed helping him with those projects; still, I did not rise quite so enthusiastically on Saturday mornings. In my younger years, the wafted smell from the kitchen of pancakes with his perfectly crisped edges made it easier, sometimes.
 
@@ -36,8 +34,7 @@ It did sound better. I was more mature already.
 
 How could I have known that just one minute later, as my dad parked in front of the store and waited in the car, I was about to have my first real job interview.
 
-<hr>
-
+---
 
 She must have been judging me as her tilted head curiously looked me over for longer than what might have been normal under circumstances of a typical $0.50 cash transaction. (And her squinted eyes, raised eyebrow, and closed mouth with slight chin uplift told me she wasn’t so subtle.)
 
@@ -55,8 +52,7 @@ We’d no longer be buying the Saturday paper at the local Cards & Gifts shop on
 
 I brought it home now. (Fo’ free!)
 
-<hr>
-
+---
 
 My first real job was assembling the newspapers at that local Cards & Gifts shop on the corner every Saturday morning at 7:30 and Sundays at 7. For four years, all through high school, I was paid one crisp $20 bill per weekend CASH (off the books, under the table, bada bing bada boom) for the almost 2 hours of work, not including the effort required of a teenager to never once sleep in. (Sometimes I was late. But a few minutes here or there never really mattered much as I saw it; the day’s news had already been printed.) I hated missing sleepovers or leaving a party early in those later high school years … but alas, such is life for the working man.
 
