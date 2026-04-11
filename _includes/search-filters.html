@@ -9,7 +9,7 @@
       {%- for category in categories -%}
         {%- if category.size > 0 -%}
           <li style="margin-bottom: 8px;">
-            <a href="/categories/#{{ category | slugify }}">{{ category }}</a>
+            <a href="/blog/category/{{ category | slugify }}">{{ category }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
@@ -24,7 +24,7 @@
       {%- for tag in tags -%}
         {%- if tag.size > 0 -%}
           <li style="margin-bottom: 8px;">
-            <a href="/tags/#{{ tag | slugify }}">{{ tag }}</a>
+            <a href="/blog/tags/{{ tag | slugify }}">{{ tag }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
@@ -39,7 +39,7 @@
       {%- for author in authors -%}
         {%- if author.size > 0 -%}
           <li style="margin-bottom: 8px;">
-            <a href="/authors/#{{ author | slugify }}">{{ author }}</a>
+            <a href="/blog/author/{{ author | slugify }}">{{ author }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
@@ -53,7 +53,7 @@
       {%- assign years = site.posts | map: "date" | map: "year" | uniq | sort | reverse -%}
       {%- for year in years -%}
         <li style="margin-bottom: 8px;">
-          <a href="/years/#{{ year }}">{{ year }}</a>
+          <a href="/blog/years/{{ year }}">{{ year }}</a>
         </li>
       {%- endfor -%}
     </ul>
