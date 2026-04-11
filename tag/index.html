@@ -8,13 +8,14 @@ permalink: /tag/
 
 <ul>
   {% assign tags = site.tags | sort %}
+
   {% for tag in tags %}
-    {% assign name = tag[0] %}
-    {% assign posts = tag[1] %}
-    <li>
-      <a href="{{ '/tag/' | append: name | slugify | append: '/' | relative_url }}">
-        {{ name }} ({{ posts | size }})
-      </a>
-    </li>
-  {% endfor %}
+  {% assign name = tag[0] %}
+  {% assign slug = name | slugify %}
+  <li>
+    <a href="{{ '/tag/' | append: slug | append: '/' | relative_url }}">
+      {{ name }} ({{ tag[1] | size }})
+    </a>
+  </li>
+{% endfor %}
 </ul>
