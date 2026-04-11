@@ -5,14 +5,14 @@ author: adam-greenberg
 categories: [branding, marketing, psychology, TOMS]
 tags: [one-for-one, TOMS, TOMS-Shoes]
 date: 2016-03-17
-excerpt_separator: "==="
+excerpt_separator: <!--more-->
 ---
 
 I just came across [this recent Fast Company article and short video interview](https://www.fastcompany.com/3055485/blake-mycoskie-on-the-future-of-toms) of TOMS founder and my former boss, Blake Mycoskie: 
 
 <https://www.fastcompany.com/embed/7db5f9c320ac6?rel=1&src=embed&veggiemode=1​>
 
-===
+<!--more-->
 
 At the end of the segment, Blake shares [TOMS’ latest commercial](https://www.youtube.com/watch?v=xkF4X5MfW0w) (below) and why TOMS recently added the sign-off, “For One, Another” after their now famous creed, “One for One.”
 

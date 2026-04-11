@@ -5,7 +5,7 @@ author: adam-greenberg
 categories: [TOMS]
 tags: [desk, intern, interns, one-for-one, Sapporo, TOMS, TOMS-Shoes]
 date: 2014-04-20
-excerpt_separator: "==="
+excerpt_separator: <!--more-->
 ---
 
 I really enjoyed my short time interning at TOMS in 2009. For many reasons. One of those reasons was that I created a fantastic workspace.
@@ -14,7 +14,7 @@ I really enjoyed my short time interning at TOMS in 2009. For many reasons. One 
 
 The back of my head and my desk of Sapporo cases, already 2/3rds smaller by the time of this photo.
 
-===
+<!--more-->
 
 One day, I came into the office to find cases and cases of unopened Sapporo beer 12-pack tallboys, leftover from a recent launch event, piled somewhat haphazardly near [the copy machine area](../../../../2009/04/23/fun-at-the-toms-shoes-hq-copy-machine) ... which was right next to me.
 

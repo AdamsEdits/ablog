@@ -5,7 +5,7 @@ author: adam-greenberg
 categories: [branding, marketing, psychology, TOMS]
 tags: [branding, marketing, mission-statement, one-for-one, psychology, slogan, TOMS, TOMS-Shoes]
 date: 2011-05-11
-excerpt_separator: "==="
+excerpt_separator: <!--more-->
 ---
 
 We say it all the time.
@@ -17,7 +17,7 @@ I hear it all the time. Setting aside that it’s actually a pretty lame first q
 
 Catch that?
 
-===
+<!--more-->
 
 Branding and marketing have always interested me, but even having changed majors six times or so in college, those two did not make my short list.
 

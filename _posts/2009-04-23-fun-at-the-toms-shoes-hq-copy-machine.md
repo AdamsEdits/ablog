@@ -5,12 +5,12 @@ author: adam-greenberg
 categories: [branding, marketing, psychology, TOMS]
 tags: [copy-machine, fun, intern, internship, office, one-for-one, TOMS, TOMS-Shoes, workplace]
 date: 2009-04-23
-excerpt_separator: "==="
+excerpt_separator: <!--more-->
 ---
 
 The Mark Twain quote was already there; I couldn’t help myself.
 
-===
+<!--more-->
 
 Thanks for your help finding a matching font, [Vanessa](https://www.vanessavaguely.com).
 
