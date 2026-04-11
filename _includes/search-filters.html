@@ -24,7 +24,7 @@
       {%- for tag in tags -%}
         {%- if tag.size > 0 -%}
           <li style="margin-bottom: 8px;">
-            <a href="/blog/tags/{{ tag | slugify }}">{{ tag }}</a>
+            <a href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
