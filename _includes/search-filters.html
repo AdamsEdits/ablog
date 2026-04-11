@@ -17,25 +17,27 @@
   </div>
 
 
-   <!-- Years -->
+  <!-- Dates -->
   <div class="filter-group">
-    <h4>By Year</h4>
+    <h4>By Date</h4>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
-      {%- assign years = "" | split: "," -%}
+      {%- assign dates = "" | split: "," -%}
       {%- for post in site.posts -%}
-        {%- assign year = post.date | date: "%Y" -%}
-        {%- unless years contains year -%}
-          {%- assign years = years | push: year -%}
+        {%- assign date_str = post.date | date: "%Y-%m-%d" -%}
+        {%- unless dates contains date_str -%}
+          {%- assign dates = dates | push: date_str -%}
         {%- endunless -%}
       {%- endfor -%}
-      {%- assign years = years | sort | reverse -%}
-      {%- for year in years -%}
+      {%- assign dates = dates | sort | reverse -%}
+      {%- for date_str in dates -%}
+        {%- assign formatted_date = date_str | date: "%B %-d, %Y" -%}
         <li style="margin-bottom: 8px;">
-          <a href="/ablog/year/{{ year }}">{{ year }}</a>
+          <a href="/dates/#{{ date_str }}">{{ formatted_date }}</a>
         </li>
       {%- endfor -%}
     </ul>
   </div>
+
 
   <!-- Categories -->
   <div class="filter-group">
