@@ -2,10 +2,8 @@
 layout: default
 ---
 
+{% comment %} robustly compute page tag slug (works if page.tag is string or array) {% endcomment %}
 {% assign page_tag_slug = page.tag | join: " " | slugify %}
-
-<pre>page.tag={{ page.tag | inspect }}
-page_tag_slug={{ page_tag_slug | inspect }}</pre>
 
 <h1>Posts tagged “{{ page.tag }}”</h1>
 
@@ -19,9 +17,11 @@ page_tag_slug={{ page_tag_slug | inspect }}</pre>
 {% for post in posts_list %}
   {% if post.tags %}
     {% assign tags_for_post = post.tags %}
+    {% comment %} if post.tags behaves like a string, split on commas to make an array {% endcomment %}
     {% if tags_for_post == tags_for_post | join: "" %}
       {% assign tags_for_post = tags_for_post | split: "," %}
     {% endif %}
+
     {% assign matched = false %}
     {% for t in tags_for_post %}
       {% assign norm = t | strip | slugify %}
@@ -30,6 +30,7 @@ page_tag_slug={{ page_tag_slug | inspect }}</pre>
         {% break %}
       {% endif %}
     {% endfor %}
+
     {% if matched %}
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -39,3 +40,14 @@ page_tag_slug={{ page_tag_slug | inspect }}</pre>
   {% endif %}
 {% endfor %}
 </ul>
+
+{% if paginator %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% endif %}
+  </nav>
+{% endif %}
