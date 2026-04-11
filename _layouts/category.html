@@ -1,25 +1,53 @@
 ---
 layout: default
 ---
-{% assign page_category_slug = page.category | slugify %}
 
-<h1>Category: {{ page.category }}</h1>
+{% comment %} robustly compute page category slug (works if page.category is string or array) {% endcomment %}
+{% assign page_cat_slug = page.category | join: " " | slugify %}
+
+<h1>Posts in category “{{ page.category }}”</h1>
+
+{% if paginator %}
+  {% assign posts_list = paginator.posts %}
+{% else %}
+  {% assign posts_list = site.posts %}
+{% endif %}
 
 <ul>
-  {% for post in site.posts %}
-    {% if post.categories %}
-      {% assign matched = false %}
-      {% for c in post.categories %}
-        {% if c | slugify == page_category_slug %}
-          {% assign matched = true %}
-        {% endif %}
-      {% endfor %}
-      {% if matched %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
-        </li>
-      {% endif %}
+{% for post in posts_list %}
+  {% if post.categories %}
+    {% assign cats_for_post = post.categories %}
+    {% comment %} if post.categories behaves like a string, split on commas to make an array {% endcomment %}
+    {% if cats_for_post == cats_for_post | join: "" %}
+      {% assign cats_for_post = cats_for_post | split: "," %}
     {% endif %}
-  {% endfor %}
+
+    {% assign matched = false %}
+    {% for c in cats_for_post %}
+      {% assign norm = c | strip | slugify %}
+      {% if norm == page_cat_slug %}
+        {% assign matched = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if matched %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+      </li>
+    {% endif %}
+  {% endif %}
+{% endfor %}
 </ul>
+
+{% if paginator %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% endif %}
+  </nav>
+{% endif %}

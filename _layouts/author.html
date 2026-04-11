@@ -1,44 +1,60 @@
 ---
 layout: default
 ---
-{% assign page_author_slug = page.author | slugify %}
-{% assign author_data = site.data.authors[page_author_slug] %}
 
-<h1>Author: {{ author_data.name | default: page.author }}</h1>
+{% comment %} robustly compute page author slug (works if page.author is string or array) {% endcomment %}
+{% assign page_author_slug = page.author | join: " " | slugify %}
 
-{% if author_data %}
-  {% if author_data.avatar %}
-    <img src="{{ author_data.avatar | relative_url }}" alt="{{ author_data.name }} avatar" />
-  {% endif %}
-  {% if author_data.title %}<p><strong>{{ author_data.title }}</strong></p>{% endif %}
-  {% if author_data.bio %}<p>{{ author_data.bio }}</p>{% endif %}
-  <p>
-    {% if author_data.website %}<a href="{{ author_data.website }}">Website</a>{% endif %}
-    {% if author_data.twitter %} {% if author_data.website %}• {% endif %}<a href="https://twitter.com/{{ author_data.twitter }}">@{{ author_data.twitter }}</a>{% endif %}
-  </p>
+<h1>Posts by “{{ page.author }}”</h1>
+
+{% if paginator %}
+  {% assign posts_list = paginator.posts %}
+{% else %}
+  {% assign posts_list = site.posts %}
 {% endif %}
 
-<h2>Posts by {{ author_data.name | default: page.author }}</h2>
 <ul>
-  {% for post in site.posts %}
-    {% assign matches = false %}
-    {% if post.author %}
-      {% if post.author | slugify == page_author_slug %}
-        {% assign matches = true %}
+{% for post in posts_list %}
+  {% assign post_auths = nil %}
+  {% if post.author %}
+    {% assign post_auths = post.author %}
+  {% elsif post.authors %}
+    {% assign post_auths = post.authors %}
+  {% endif %}
+
+  {% if post_auths %}
+    {% comment %} if post_auths behaves like a string, split on commas to make an array {% endcomment %}
+    {% if post_auths == post_auths | join: "" %}
+      {% assign post_auths = post_auths | split: "," %}
+    {% endif %}
+
+    {% assign matched = false %}
+    {% for a in post_auths %}
+      {% assign norm = a | strip | slugify %}
+      {% if norm == page_author_slug %}
+        {% assign matched = true %}
+        {% break %}
       {% endif %}
-    {% endif %}
-    {% if post.authors %}
-      {% for a in post.authors %}
-        {% if a | slugify == page_author_slug %}
-          {% assign matches = true %}
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-    {% if matches %}
+    {% endfor %}
+
+    {% if matched %}
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
         <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
       </li>
     {% endif %}
-  {% endfor %}
+  {% endif %}
+{% endfor %}
 </ul>
+
+{% if paginator %}
+  <nav class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+    {% endif %}
+  </nav>
+{% endif %}
+```_
