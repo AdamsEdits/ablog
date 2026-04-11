@@ -1,37 +1,7 @@
 <div class="sidebar-filters">
   <h3>Filter Posts</h3>
 
-  <!-- Categories -->
-  <div class="filter-group">
-    <h4>Categories</h4>
-    <ul style="list-style: none; padding-left: 0; margin: 0;">
-      {%- assign categories = site.posts | map: "categories" | join: "," | split: "," | uniq | sort -%}
-      {%- for category in categories -%}
-        {%- if category.size > 0 -%}
-          <li style="margin-bottom: 8px;">
-            <a href="/blog/category/{{ category | slugify }}">{{ category }}</a>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  </div>
-
-  <!-- Tags -->
-  <div class="filter-group">
-    <h4>Tags</h4>
-    <ul style="list-style: none; padding-left: 0; margin: 0;">
-      {%- assign tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort -%}
-      {%- for tag in tags -%}
-        {%- if tag.size > 0 -%}
-          <li style="margin-bottom: 8px;">
-            <a href="/blog/tag/{{ tag | slugify }}">{{ tag }}</a>
-          </li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  </div>
-
-  <!-- Authors -->
+    <!-- Authors -->
   <div class="filter-group">
     <h4>Authors</h4>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
@@ -39,7 +9,7 @@
       {%- for author in authors -%}
         {%- if author.size > 0 -%}
           <li style="margin-bottom: 8px;">
-            <a href="/blog/author/{{ author | slugify }}">{{ author }}</a>
+            <a href="/ablog/author/{{ author | slugify }}">{{ author }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
@@ -53,11 +23,43 @@
       {%- assign years = site.posts | map: "date" | map: "year" | uniq | sort | reverse -%}
       {%- for year in years -%}
         <li style="margin-bottom: 8px;">
-          <a href="/blog/years/{{ year }}">{{ year }}</a>
+          <a href="/ablog/years/{{ year }}">{{ year }}</a>
         </li>
       {%- endfor -%}
     </ul>
   </div>
+
+  <!-- Categories -->
+  <div class="filter-group">
+    <h4>Categories</h4>
+    <ul style="list-style: none; padding-left: 0; margin: 0;">
+      {%- assign categories = site.posts | map: "categories" | join: "," | split: "," | uniq | sort -%}
+      {%- for category in categories -%}
+        {%- if category.size > 0 -%}
+          <li style="margin-bottom: 8px;">
+            <a href="/ablog/category/{{ category | slugify }}">{{ category }}</a>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+
+  <!-- Tags 
+  <div class="filter-group">
+    <h4>Tags</h4>
+    <ul style="list-style: none; padding-left: 0; margin: 0;">
+      {%- assign tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort -%}
+      {%- for tag in tags -%}
+        {%- if tag.size > 0 -%}
+          <li style="margin-bottom: 8px;">
+            <a href="/ablog/tag/{{ tag | slugify }}">{{ tag }}</a>
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+  -->
+
 </div>
 
 <style>
