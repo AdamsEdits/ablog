@@ -56,5 +56,5 @@ jekyll-archives:
   layouts:
     dates: archive-date
   permalinks:
-    dates: '/:year/:month/:day/'
+    dates: '/ablog/:year/:month/:day/'
 

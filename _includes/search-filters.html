@@ -35,7 +35,7 @@
         {%- assign month = date_str | date: "%m" -%}
         {%- assign day = date_str | date: "%d" -%}
         <li style="margin-bottom: 8px;">
-          <a href="/{{ year }}/{{ month }}/{{ day }}/">{{ formatted_date }}</a>
+          <a href="/ablog/{{ year }}/{{ month }}/{{ day }}/">{{ formatted_date }}</a>
         </li>
       {%- endfor -%}
     </ul>
