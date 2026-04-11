@@ -74,7 +74,7 @@
           {%- assign count = tag_counts | where_exp: "item", "item == tag" | size -%}
           {%- if count >= 2 -%}
             <li style="margin-bottom: 8px;">
-              <a href="/tags/">{{ tag }} ({{ count }})</a>
+              <a href="/ablog/tags/">{{ tag }} ({{ count }})</a>
             </li>
           {%- endif -%}
         {%- endif -%}
