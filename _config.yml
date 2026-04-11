@@ -25,6 +25,10 @@ rss: rss
 # - username: jekyll2
 #   instance: example.com
 
+header_pages:
+  - adams-edits.md
+  - about.md
+  - blog.md
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
