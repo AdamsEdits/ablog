@@ -2,10 +2,18 @@
 layout: default
 ---
 
+{% assign page_tag_slug = page.tag | join: " " | slugify %}
+
 <pre>page.tag={{ page.tag | inspect }}
 page_tag_slug={{ page_tag_slug | inspect }}</pre>
 
-{% assign page_tag_slug = page.tag | slugify %}
+<h1>Posts tagged “{{ page.tag }}”</h1>
+
+{% if paginator %}
+  {% assign posts_list = paginator.posts %}
+{% else %}
+  {% assign posts_list = site.posts %}
+{% endif %}
 
 <ul>
 {% for post in posts_list %}
