@@ -53,8 +53,10 @@ plugins:
 jekyll-archives:
   enabled:
     - dates
+    - categories
   layouts:
     dates: archive-date
+    categories: archive-category
   permalinks:
     dates: '/ablog/:year/:month/:day/'
-
+    categories: '/category/:name/'
