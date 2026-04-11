@@ -54,9 +54,12 @@ jekyll-archives:
   enabled:
     - dates
     - categories
+    - tags
   layouts:
     dates: archive-date
     categories: archive-category
+    tags: archive-tag
   permalinks:
     dates: '/ablog/:year/:month/:day/'
-    categories: '/category/:name/'
+    categories: '/ablog/category/:name/'
+    tags: '/ablog/tag/:name/'
