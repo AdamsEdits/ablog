@@ -1,7 +1,7 @@
 <div class="sidebar-filters">
   <h3>Filter Posts</h3>
 
-    <!-- Authors -->
+    <!-- Authors
   <div class="filter-group">
     <h4>Authors</h4>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
@@ -15,9 +15,9 @@
       {%- endfor -%}
     </ul>
   </div>
+-->
 
-
-  <!-- Dates -->
+  <!-- Dates
   <div class="filter-group">
     <h4>By Date</h4>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
@@ -40,7 +40,7 @@
       {%- endfor -%}
     </ul>
   </div>
-
+-->
 
 
   <!-- Categories -->
@@ -60,7 +60,7 @@
 
   <!-- Tags -->
   <div class="filter-group">
-    <h4>Tags</h4>
+    <h4>Frequent Tags</h4>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
       {%- assign tag_counts = "" | split: "," -%}
       {%- for post in site.posts -%}
