@@ -31,12 +31,16 @@
       {%- assign dates = dates | sort | reverse -%}
       {%- for date_str in dates -%}
         {%- assign formatted_date = date_str | date: "%B %-d, %Y" -%}
+        {%- assign year = date_str | date: "%Y" -%}
+        {%- assign month = date_str | date: "%m" -%}
+        {%- assign day = date_str | date: "%d" -%}
         <li style="margin-bottom: 8px;">
-          <a href="/dates/#{{ date_str }}">{{ formatted_date }}</a>
+          <a href="/{{ year }}/{{ month }}/{{ day }}/">{{ formatted_date }}</a>
         </li>
       {%- endfor -%}
     </ul>
   </div>
+
 
 
   <!-- Categories -->
