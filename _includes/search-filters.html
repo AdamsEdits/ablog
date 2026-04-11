@@ -16,14 +16,22 @@
     </ul>
   </div>
 
-  <!-- Years -->
+
+   <!-- Years -->
   <div class="filter-group">
     <h4>By Year</h4>
     <ul style="list-style: none; padding-left: 0; margin: 0;">
-      {%- assign years = site.posts | map: "date" | map: "year" | uniq | sort | reverse -%}
+      {%- assign years = "" | split: "," -%}
+      {%- for post in site.posts -%}
+        {%- assign year = post.date | date: "%Y" -%}
+        {%- unless years contains year -%}
+          {%- assign years = years | push: year -%}
+        {%- endunless -%}
+      {%- endfor -%}
+      {%- assign years = years | sort | reverse -%}
       {%- for year in years -%}
         <li style="margin-bottom: 8px;">
-          <a href="/ablog/years/{{ year }}">{{ year }}</a>
+          <a href="/ablog/year/{{ year }}">{{ year }}</a>
         </li>
       {%- endfor -%}
     </ul>
