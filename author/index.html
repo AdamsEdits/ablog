@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Authors
-permalink: /blog/author/
+permalink: /author/
 ---
 
 <h1>Authors</h1>
@@ -12,7 +12,7 @@ permalink: /blog/author/
       {% assign id = key[0] | slugify %}
       {% assign info = key[1] %}
       <li>
-        <a href="{{ '/blog/author/' | append: id | append: '/' | relative_url }}">
+        <a href="{{ '/author/' | append: id | append: '/' | relative_url }}">
           {{ info.name | default: id }}
         </a>
         {% if info.title %} — <small>{{ info.title }}</small>{% endif %}
@@ -43,7 +43,7 @@ permalink: /blog/author/
   {% endfor %}
   {% assign display = display | join: ' ' %}
   <li>
-    <a href="{{ '/blog/author/' | append: a | append: '/' | relative_url }}">{{ display }}</a>
+    <a href="{{ '/author/' | append: a | append: '/' | relative_url }}">{{ display }}</a>
   </li>
 {% endfor %}
 
