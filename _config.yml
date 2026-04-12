@@ -1,4 +1,4 @@
-title: Adam's Edits | Blog
+title: Blog
 author: Adam Greenberg
 email: blog@edits.AdamGreenberg.com
 description: > # this means to ignore newlines until "twitter_username:"
@@ -26,9 +26,9 @@ rss: rss
 #   instance: example.com
 
 header_pages:
-  - adams-edits.md
   - about.md
   - blog.md
+  - adams-edits.md
 
 show_excerpts: false # set to true to show excerpts on the homepage
 
