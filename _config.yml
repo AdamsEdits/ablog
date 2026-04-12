@@ -1,8 +1,11 @@
-title: Blog
+title: Adam Greenberg
 author: Adam Greenberg
 email: blog@edits.AdamGreenberg.com
 description: > # this means to ignore newlines until "twitter_username:"
-  The Blog Of An Editor Helping You Write Well
+  Adam's Edits 
+  Helping You Write Well
+
+  Blog
 
 permalink: /:year/:month/:day/:title/
 
@@ -35,7 +38,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 minima:
-  date_format: "%b %-d, %Y"
+  date_format: "%a. %b, %d %Y" #formerly %b %-d, %Y
 
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
