@@ -1,19 +1,12 @@
 ---
 layout: page
-title: About
+title: Adam's Edits
 permalink: /about/
 nav_order: 2
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+### Helping You Write Well
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Welcome to a blog where I share some of my musings from my time around books and writing or in branding and marketing. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+May you find something here helpful or insightful on your own writing path.
