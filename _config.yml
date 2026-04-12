@@ -1,11 +1,11 @@
 title: Adam Greenberg
 author: Adam Greenberg
 email: blog@edits.AdamGreenberg.com
-description: > # this means to ignore newlines until "twitter_username:"
-  "Adam's Edits<br>
-  Helping You Write Well<br>
-  <br>
-  A Blog"
+description: | # this means to ignore newlines until "twitter_username:"
+  Adam's Edits
+  Helping You Write Well
+  
+  A Blog
 
 permalink: /:year/:month/:day/:title/
 
