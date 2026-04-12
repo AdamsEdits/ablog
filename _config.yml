@@ -49,6 +49,7 @@ plugins:
  - jekyll-feed
  - jekyll-seo-tag
  - jekyll-archives
+ - jekyll-redirect-from
 
 jekyll-archives:
   enabled:
