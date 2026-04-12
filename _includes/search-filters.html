@@ -9,7 +9,7 @@
       {%- for author in authors -%}
         {%- if author.size > 0 -%}
           <li style="margin-bottom: 8px;">
-            <a href="/ablog/author/{{ author | slugify }}">{{ author }}</a>
+            <a href="/blog/author/{{ author | slugify }}">{{ author }}</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
@@ -35,7 +35,7 @@
         {%- assign month = date_str | date: "%m" -%}
         {%- assign day = date_str | date: "%d" -%}
         <li style="margin-bottom: 8px;">
-          <a href="/ablog/{{ year }}/{{ month }}/{{ day }}/">{{ formatted_date }}</a>
+          <a href="/blog/{{ year }}/{{ month }}/{{ day }}/">{{ formatted_date }}</a>
         </li>
       {%- endfor -%}
     </ul>
@@ -58,7 +58,7 @@
         {%- if category.size > 0 -%}
           {%- assign count = category_counts | where_exp: "item", "item == category" | size -%}
           <li style="margin-bottom: 8px;">
-            <a href="/ablog/category/">{{ category }} ({{ count }})</a>
+            <a href="/blog/category/">{{ category }} ({{ count }})</a>
           </li>
         {%- endif -%}
       {%- endfor -%}
@@ -82,7 +82,7 @@
           {%- assign count = tag_counts | where_exp: "item", "item == tag" | size -%}
           {%- if count >= 2 -%}
             <li style="margin-bottom: 8px;">
-              <a href="/ablog/tag/{{ tag | slugify }}/">{{ tag }} ({{ count }})</a>
+              <a href="/blog/tag/{{ tag | slugify }}/">{{ tag }} ({{ count }})</a>
             </li>
           {%- endif -%}
         {%- endif -%}
