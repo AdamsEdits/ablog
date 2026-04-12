@@ -19,7 +19,7 @@
     <h3>Categories</h3>
     <ul>
       {% for cat in site.categories %}
-        <li><a href="{{ site.baseurl }}/categories/{{ cat[0] | slugify }}/">{{ cat[0] }} ({{ cat[1].size }})</a></li>
+        <li><a href="{{ site.baseurl }}/category/{{ cat[0] | slugify }}/">{{ cat[0] }} ({{ cat[1].size }})</a></li>
       {% endfor %}
     </ul>
   </section>
@@ -29,7 +29,7 @@
     <ul>
       {% assign tags = site.tags | sort %}
       {% for tag in tags %}
-        <li><a href="{{ site.baseurl }}/tags/{{ tag[0] | slugify }}/">{{ tag[0] }} ({{ tag[1].size }})</a></li>
+        <li><a href="{{ site.baseurl }}/tag/{{ tag[0] | slugify }}/">{{ tag[0] }} ({{ tag[1].size }})</a></li>
       {% endfor %}
     </ul>
   </section>

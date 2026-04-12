@@ -60,6 +60,6 @@ jekyll-archives:
     categories: archive-category
     tags: archive-tag
   permalinks:
-    dates: '/ablog/:year/:month/:day/'
-    categories: '/ablog/category/:name/'
-    tags: '/ablog/tag/:name/'
+    dates: '/blog/:year/:month/:day/'
+    categories: '/blog/category/:name/'
+    tags: '/blog/tag/:name/'
