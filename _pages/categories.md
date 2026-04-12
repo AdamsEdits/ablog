@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Categories
-permalink: /category/
+permalink: /categories/
 nav_exclude: true
 ---

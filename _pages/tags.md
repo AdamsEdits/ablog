@@ -1,6 +1,6 @@
 ---
 layout: tag
 title: Tags
-permalink: /tag/
+permalink: /tags/
 nav_exclude: true
 ---
