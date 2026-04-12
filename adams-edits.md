@@ -1,6 +1,6 @@
 ---
 title: Adam's Edits
-layout: default
+layout: page
 # permalink: /adams-edits/
 redirect_to: "https://edits.AdamGreenberg.com"   # forward to the parent (site root)
 nav_order: 4
