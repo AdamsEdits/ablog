@@ -25,9 +25,9 @@ rss: rss
 # - username: jekyll2
 #   instance: example.com
 
-collections:
-  pages:
-    output: true
+# collections:
+#  pages:
+#    output: true
     
 header_pages:
   - about.md
