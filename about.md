@@ -8,6 +8,6 @@ nav_order: 2
 
 ### *Helping You Write Well*
 
-Welcome to a blog where I share some of my musings from my time around books and writing or in branding and marketing. 
+Welcome to a blog where I share some of my musings from my time editing books and among the world of words, writers, branding, and marketing. 
 
 May you find something here helpful or insightful on your own writing path.
