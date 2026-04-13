@@ -54,6 +54,8 @@ plugins:
 hidden_tags:
   - internal
   - draft
+  - audio
+  - ai
   - intern
   - interns
   - desk
