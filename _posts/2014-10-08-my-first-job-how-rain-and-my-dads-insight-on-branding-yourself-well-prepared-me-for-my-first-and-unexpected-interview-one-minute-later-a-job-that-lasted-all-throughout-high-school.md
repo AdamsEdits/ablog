@@ -20,6 +20,7 @@ featured: yes
 pinned: no
 comments_enabled: true
 show_prev_next: true
+show_all_tags: false
 
 ---
 

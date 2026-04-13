@@ -51,6 +51,28 @@ plugins:
  - jekyll-archives
  - jekyll-redirect-from
 
+hidden_tags:
+  - internal
+  - draft
+  - intern
+  - interns
+  - desk
+  - drink
+  - fun
+  - office
+  - podcast
+  - podcasts
+  - speed
+  - copy machine
+  - free
+  - beverage
+  - TOMS Shoes
+  - Sapporo
+
+hidden_categories:
+  - internal
+  - draft
+
 jekyll-archives:
   enabled:
     - dates
