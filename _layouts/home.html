@@ -13,7 +13,7 @@ layout: default
           {%- for post in site.posts -%}
             {%- unless post.hidden -%}
               <li>
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+                <span class="post-meta">{{ post.date | date: "%a. %d, %b. %Y" }}</span>
                 <h3>
                   <a class="post-link" href="{{ post.url | relative_url }}">
                     {{ post.title | escape }}

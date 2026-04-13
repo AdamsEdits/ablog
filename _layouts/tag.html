@@ -34,7 +34,7 @@ layout: default
     {% if matched and post.hidden != true %}
       <li>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-        <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+        <small>— {{ post.date | date: "%a. %d, %b. %Y" }}</small>
       </li>
     {% endif %}
   {% endif %}
