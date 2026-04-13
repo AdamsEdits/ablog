@@ -25,8 +25,8 @@ rss: rss
 # - username: jekyll2
 #   instance: example.com
 
-# collections:
-#  pages:
+# collections:       uncomment these 3 lines if using the _pages folder
+#  pages: 
 #    output: true
     
 header_pages:
