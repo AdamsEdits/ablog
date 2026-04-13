@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Accelerated Audio
-author: adam-greenberg
+author: "Adam Greenberg"
 categories: [Audiobooks]
 tags: [accelerated audio, ai, artificial intelligence, audio, audiobooks, books, free, learning, library, podcast, podcasts, singularity, speed]
 date: 2020-06-25

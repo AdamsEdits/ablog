@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Beer Can Desk at TOMS Shoes HQ
-author: adam-greenberg
+author: "Adam Greenberg"
 hidden: true
 categories: [TOMS]
 tags: [desk, intern, interns, One for One, Sapporo, TOMS, TOMS Shoes]

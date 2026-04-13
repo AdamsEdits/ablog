@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Permit me this humble brag
-author: adam-greenberg
+author: "Adam Greenberg"
 categories: [branding, marketing, psychology, TOMS]
 tags: [One for One, TOMS, TOMS Shoes]
 date: 2016-06-26

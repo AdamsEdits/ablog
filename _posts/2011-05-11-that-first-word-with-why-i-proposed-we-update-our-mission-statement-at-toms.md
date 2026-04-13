@@ -1,7 +1,7 @@
 ---
 layout: post
 title: That first word “With” – why I proposed we update our mission statement at TOMS.
-author: adam-greenberg
+author: "Adam Greenberg"
 categories: [branding, marketing, psychology, TOMS]
 tags: [branding, marketing, mission statement, One for One, psychology, slogan, TOMS, TOMS Shoes]
 date: 2011-05-11
