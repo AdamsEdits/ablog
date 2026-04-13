@@ -111,10 +111,12 @@ Two last points. The first, on office culture.
 
 1. Blake wanted to hear this. 
 
-As *Boss Man*, he worked to create TOMS as a space to allow for this … to encourage it.
+    As *Boss Man*, he worked to create TOMS as a space to allow for this … to encourage it.
+
+2. I hope you’ll join me in realizing too, *this is all just semantics.* **My entire point here is the real difference.**
 
 <ol start="2">
-  <li>2. I hope you’ll join me in realizing too, *this is all just semantics.* **My entire point here is the real difference.**
+  <li>I hope you’ll join me in realizing too, *this is all just semantics.* **My entire point here is the real difference.**
 </li>
 </ol>
 
