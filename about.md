@@ -8,10 +8,10 @@ nav_order: 2
 
 ### *Helping You Write Well*
 
-Welcome to a blog where I share musings from my work as a book editor and among the world of words, writers, branding, and marketing. 
+Welcome to a blog where I share select musings from my work as a book editor and among the world of words and writers, amid the psychology of branding and marketing.
 
-May you find something here helpful or insightful on your own writing path.
+May you find something here helpful or insightful on your own creative path, writing or otherwise...
 
 ---
 
-For more of my portfolio or to become a client, see [Adam's Edits](https://edits.AdamGreenberg.com).
+For more of my portfolio or to inquire about working together, see [Adam's Edits](https://edits.AdamGreenberg.com).
