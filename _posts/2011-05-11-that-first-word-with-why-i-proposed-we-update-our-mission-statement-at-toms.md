@@ -115,11 +115,6 @@ Two last points. The first, on office culture.
 
 2. I hope you’ll join me in realizing too, *this is all just semantics.* **My entire point here is the real difference.**
 
-<ol start="2">
-  <li>I hope you’ll join me in realizing too, *this is all just semantics.* **My entire point here is the real difference.**
-</li>
-</ol>
-
 And the real difference is how you choose to answer that *pretty lame* first question for yourself, every day: 
 
 “I work *with*...” or “I work *for*...”
