@@ -9,8 +9,10 @@ permalink: /blog/category/
 <ul>
 {% assign categories = site.posts | map: "categories" | join: "," | split: "," | uniq | sort %}
 {% for cat in categories %}
-  {% if cat and site.hidden_categories contains cat == false %}
-    <li><a href="/blog/category/{{ cat | slugify }}/">{{ cat }}</a></li>
-  {% endif %}
+  {% unless site.hidden_categories contains cat %}
+    {% if cat %}
+      <li><a href="/blog/category/{{ cat | slugify }}/">{{ cat }}</a></li>
+    {% endif %}
+  {% endunless %}
 {% endfor %}
 </ul>
