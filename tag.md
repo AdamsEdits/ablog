@@ -1,3 +1,4 @@
+<!--
 ---
 layout: default
 title: Tags
@@ -23,6 +24,25 @@ permalink: /tag/
     {% if should_hide == false %}
       <li><a href="/blog/tag/{{ tag | slugify }}/">{{ tag }}</a></li>
     {% endif %}
+  {% endif %}
+{% endfor %}
+</ul>
+
+
+-->
+---
+layout: default
+title: Tags
+permalink: /tag/
+---
+
+<h1>Tags</h1>
+
+<ul>
+{% assign tags = site.posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+{% for tag in tags %}
+  {% if tag %}
+    <li>{{ tag }} - hidden? {{ site.hidden_tags contains tag }}</li>
   {% endif %}
 {% endfor %}
 </ul>
