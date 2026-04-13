@@ -103,7 +103,7 @@ I didn’t add the word “new” nor suggest the phrase “One for One.”
 
 It’s not a huge change either; it’s literally one word. **That first word.** The essence is still very much the same.
 
-But I did poke the box; Seth Godin would be proud. And that’s pretty cool.
+But I did [poke the box](https://web.archive.org/web/20130919123650/http://vimeo.com/19258574); [Seth Godin]((https://vimeo.com/user2522025)) would be proud. And that’s pretty cool.
 
 Picture
 Two last points. The first, on office culture. 
