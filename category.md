@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Categories
-permalink: /category/
+permalink: /blog/category/
 ---
 
 <h1>Categories</h1>

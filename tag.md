@@ -33,7 +33,7 @@ permalink: /tag/
 ---
 layout: default
 title: Tags
-permalink: /tag/
+permalink: /blog/tag/
 ---
 
 <h1>Tags</h1>
