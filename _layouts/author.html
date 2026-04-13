@@ -5,7 +5,7 @@ layout: default
 {% comment %} robustly compute page author slug (works if page.author is string or array) {% endcomment %}
 {% assign page_author_slug = page.author | join: " " | slugify %}
 
-<h1>Posts by “{{ page.author }}”</h1>
+<h1>Posts by {{ page.author }}</h1>
 
 {% if paginator %}
   {% assign posts_list = paginator.posts %}
