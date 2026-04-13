@@ -51,4 +51,5 @@ It shouldn't be a surprise that it actually comes as something we experience lik
 
 'Til one day it just feels like it's all as normal as it ever was.
 
+<hr>
 [Archive.org](https://web.archive.org/web/20201217185348/https://edits.adamgreenberg.com/blog/accelerated-audio/)

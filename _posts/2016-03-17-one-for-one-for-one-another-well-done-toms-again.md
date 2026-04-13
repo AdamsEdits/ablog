@@ -84,4 +84,5 @@ Again, well done Blake and the current TOMS team! Cheers to 10 years.
 ---
 [![TOMS Shoes](../../../../src/images/banner.jpg "TOMS Shoes")](https://web.archive.org/web/20161106163601/http://www.toms.com/stories/uncategorized/for-one-another-toms-commercial)
 
+<hr>
 [Archive.org](https://web.archive.org/web/20210220133125/https://edits.adamgreenberg.com/blog/one-for-one-for-one-another-well-done-toms-again/)

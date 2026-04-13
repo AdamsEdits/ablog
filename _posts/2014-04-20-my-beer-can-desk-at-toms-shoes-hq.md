@@ -42,4 +42,5 @@ It was a fine time.
 
 Spring '09 Interns and TOMS founder Blake Mycoskie
 
+<hr>
 [Archive.org](https://web.archive.org/web/20210220235711/https://edits.adamgreenberg.com/blog/my-beer-can-desk-at-toms-shoes-hq/)

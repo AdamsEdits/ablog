@@ -17,4 +17,5 @@ Thanks for your help finding a matching font, [Vanessa](https://www.vanessavague
 
 ![Shania and Mark Twain](../../../../src/images/Shania.jpg "The best thing about being a woman...")
 
+<hr>
 [Archive.org](https://web.archive.org/web/20210220143046/https://edits.adamgreenberg.com/blog/fun-at-the-toms-shoes-hq-copy-machine/)

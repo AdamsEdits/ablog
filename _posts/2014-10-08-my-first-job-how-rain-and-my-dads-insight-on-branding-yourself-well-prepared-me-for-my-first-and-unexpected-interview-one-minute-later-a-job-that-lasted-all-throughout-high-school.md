@@ -74,4 +74,5 @@ My first real job was assembling the newspapers at that local Cards & Gifts shop
 
 I’m still not an enthusiastic riser.
 
+<hr>
 [Archive.org](https://web.archive.org/web/20210221072528/https://edits.adamgreenberg.com/blog/my-first-job-how-rain-and-my-dads-insight-on-branding-yourself-well-prepared-me-for-my-first-and-unexpected-interview-one-minute-later-a-job-that-lasted-all-throughout-high-school/)
