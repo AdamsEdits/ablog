@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Fun at the TOMS Shoes HQ Copy Machine
-author: adam-greenberg
+author: "Adam Greenberg"
 categories: [branding, marketing, psychology, TOMS]
 tags: [copy machine, fun, intern, internship, office, One for One, TOMS, TOMS Shoes, workplace]
 date: 2009-04-23
