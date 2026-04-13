@@ -30,7 +30,7 @@ With giving at its core, TOMS Shoes is the epitome of a for-profit company with 
 
 At the time, our mission statement read:
 
-![Picture]()
+![For](../../../../src/images/old.jpeg)
 
 Pretty awesome sounding company if you ask me. Or any of the million other people who have since caught ear and bought a pair or two – giving an equal number of new shoes to children in need. 
 
@@ -42,7 +42,7 @@ If you look at [TOMS.com](https://TOMS.com) now or inside the sole of any pair, 
 
 It reads, 
 
-Picture
+![With](../../../../src/images/slogan.jpg)
 
 “New” shoes. People would wonder and often ask, “Will the children get the same shoes I buy? Or even new ones?” Fair question. Yes, good clarification. 
 
@@ -105,7 +105,8 @@ It’s not a huge change either; it’s literally one word. **That first word.**
 
 But I did [poke the box](https://web.archive.org/web/20130919123650/http://vimeo.com/19258574); [Seth Godin]((https://vimeo.com/user2522025)) would be proud. And that’s pretty cool.
 
-Picture
+![With](../../../../src/images/new.jpg)
+
 Two last points. The first, on office culture. 
 
 1. Blake wanted to hear this. 
