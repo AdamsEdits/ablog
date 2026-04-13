@@ -113,8 +113,10 @@ Two last points. The first, on office culture.
 
 As *Boss Man*, he worked to create TOMS as a space to allow for this … to encourage it.
 
-2. I hope you’ll join me in realizing too, *this is all just semantics.* **My entire point here is the real difference.**
-{start=2}
+<ol start="2">
+  <li>2. I hope you’ll join me in realizing too, *this is all just semantics.* **My entire point here is the real difference.**
+</li>
+</ol>
 
 And the real difference is how you choose to answer that *pretty lame* first question for yourself, every day: 
 
