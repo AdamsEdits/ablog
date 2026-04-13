@@ -121,7 +121,7 @@ And the real difference is how you choose to answer that *pretty lame* first que
 
 > “Nice to meet you. What do you do?”
 
-https://www.facebook.com/plugins/post.php?app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3fdf9b64f1fcbc%26domain%3Dadamgreenberg.com%26origin%3Dhttps%253A%252F%252Fadamgreenberg.com%252Ff16b6995adf5fd4%26relation%3Dparent.parent&container_width=524&href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D721713183937%26set%3Da.578016218807.2197876.10600163%26type%3D1&locale=en_US&sdk=joey&width=350
+[Facebook post](https://www.facebook.com/plugins/post.php?app_id=&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df3fdf9b64f1fcbc%26domain%3Dadamgreenberg.com%26origin%3Dhttps%253A%252F%252Fadamgreenberg.com%252Ff16b6995adf5fd4%26relation%3Dparent.parent&container_width=524&href=https%3A%2F%2Fwww.facebook.com%2Fphoto.php%3Ffbid%3D721713183937%26set%3Da.578016218807.2197876.10600163%26type%3D1&locale=en_US&sdk=joey&width=350)
 
 <hr>
 [Archive.org](https://web.archive.org/web/20210120222056/https://edits.adamgreenberg.com/blog/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms/)
