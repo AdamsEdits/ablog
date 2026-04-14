@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My first job – How rain and my dad’s insight on branding yourself well prepared me for my first (and unexpected) interview one minute later, a job that lasted all throughout high school.
+title: My first job
 subtitle: How rain and my dad’s insight on branding yourself well prepared me for my first (and unexpected) interview one minute later, a job that lasted all throughout high school
 author: "Adam Greenberg"
 categories: [branding, marketing, psychology, TOMS]
