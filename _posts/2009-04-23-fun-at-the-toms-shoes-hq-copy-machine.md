@@ -7,6 +7,8 @@ tags: [copy machine, fun, intern, internship, office, One for One, TOMS, TOMS Sh
 date: 2009-04-23
 excerpt_separator: <!--more-->
 show_all_tags: false
+redirect_from:
+  - /blog/fun-at-the-toms-shoes-hq-copy-machine/
 ---
 
 The Mark Twain quote was already there; I couldn’t help myself. *(And I'm not even a woman!)*

@@ -21,6 +21,8 @@ pinned: no
 comments_enabled: true
 show_prev_next: true
 show_all_tags: false
+redirect_from:
+  - /blog/my-first-job-how-rain-and-my-dads-insight-on-branding-yourself-well-prepared-me-for-my-first-and-unexpected-interview-one-minute-later-a-job-that-lasted-all-throughout-high-school/
 
 ---
 

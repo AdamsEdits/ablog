@@ -7,6 +7,8 @@ tags: [One for One, TOMS, TOMS Shoes]
 date: 2016-06-26
 excerpt_separator: <!--more-->
 show_all_tags: false
+# redirect_from:
+#   - /2020/08/welcome/
 ---
 
 It's a great feeling when your former boss [writes](https://medium.com/@BlakeMycoskie/the-new-impact-ecosystem-whats-your-role-6719c00f8710#.hzve0rkez) about [your suggestion years ago](../../../../2011/05/11/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms) as an example of the philosophy at work in a company that's had the impact TOMS has had. Thanks for listening Blake. Keep up the important work!

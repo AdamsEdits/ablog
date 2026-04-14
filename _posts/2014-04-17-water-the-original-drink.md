@@ -7,6 +7,8 @@ tags: [beverage, drink, marketing, quench, water]
 date: 2014-04-17
 excerpt_separator: <!--more-->
 show_all_tags: false
+redirect_from:
+  - /blog/water-the-original-drink/
 ---
 
 ![Water](../../../../src/images/water.jpg "Water. The Original Drink.")

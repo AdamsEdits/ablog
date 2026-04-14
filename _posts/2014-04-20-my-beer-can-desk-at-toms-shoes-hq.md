@@ -8,6 +8,8 @@ tags: [desk, intern, interns, One for One, Sapporo, TOMS, TOMS Shoes]
 date: 2014-04-20
 excerpt_separator: <!--more-->
 show_all_tags: false
+redirect_from:
+  - /blog/my-beer-can-desk-at-toms-shoes-hq/
 ---
 
 I really enjoyed my short time interning at TOMS in 2009. For many reasons. One of those reasons was that I created a fantastic workspace.

@@ -7,6 +7,8 @@ tags: [One for One, TOMS, TOMS Shoes]
 date: 2016-03-17
 excerpt_separator: <!--more-->
 show_all_tags: false
+redirect_from:
+  - /blog/one-for-one-for-one-another-well-done-toms-again/
 ---
 
 I just came across [this recent Fast Company article and short video interview](https://www.fastcompany.com/3055485/blake-mycoskie-on-the-future-of-toms) of TOMS founder and my former boss, Blake Mycoskie: 

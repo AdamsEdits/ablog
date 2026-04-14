@@ -7,6 +7,8 @@ tags: [branding, marketing, mission statement, One for One, psychology, slogan, 
 date: 2011-05-11
 excerpt_separator: <!--more-->
 show_all_tags: false
+redirect_from:
+  - /blog/that-first-word-with-why-i-proposed-we-update-our-mission-statement-at-toms/
 ---
 
 We say it all the time.
